@@ -8,6 +8,4 @@ fork 当前 repository，在 members 文件夹下创建一个md文件，填入�
 4. 每周能花在业余项目的时间：
 5. 区块链开发经验（产品、项目、黑客松、技术文章、代码贡献等）：
 6. 用任意编程语言计算以下公式：
-$$  
-   \sum_{n=1}^{100}\left (n^{3}-\sqrt[3]{n} \right )
-$$
+![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
