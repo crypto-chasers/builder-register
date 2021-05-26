@@ -6,9 +6,7 @@
 4. *每周能花在业余项目的时间：* 15小时左右
 5. *区块链建设经验（产品、项目、黑客松、技术文章、代码贡献、艺术创作等）：* 写过一些技术文章，开发过基于Selenium+ZMQ的网页自动化工具。
 6. *用任意编程语言计算以下公式*
-$$  
-   \sum_{n=1}^{100}\left (n^{3}-\sqrt[3]{n} \right )
-$$
+![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
 ```C#
 using System;
