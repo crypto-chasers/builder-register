@@ -12,7 +12,7 @@
 import math
 sum = 0
 for i in range(1, 101):
-    sum += math.pow(i, 3) - math.sqrt(i)
+    sum += math.pow(i, 3) - math.sqrt(i, 1/3)
 print(sum)
 #25502149.836096782
 ```
