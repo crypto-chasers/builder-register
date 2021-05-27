@@ -9,11 +9,11 @@
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
 ```Java
-        double d = 0L;
-        for (int i = 1; i <= 100; i++) {
-            d += (Math.pow(i, 3) - Math.pow(i, 1 / 3));
-        }
-
-        System.out.println(d);
-        2.55024E7
+        Flux.range(1, 100)
+                .subscribeOn(Schedulers.parallel())
+                .map(i -> Math.pow(i, 3) - Math.pow(i, 1.0 / 3))
+                .reduce(Double::sum)
+                .subscribe(System.out::println);
+                
+                2.5502149836096782E7
 ```
