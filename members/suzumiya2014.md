@@ -8,7 +8,7 @@
 6. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
-一个循环就能搞定的事情，不过还是考虑用forkjoin，毕竟这样百亿也很快。未对开根号的精度进行额外处理，要处理的话可以单独写一个类来控制计算精度。
+一个循环就能搞定的事情，不过还是考虑用forkjoin，毕竟这样百亿也很快。下面的方法讲返回long，不保留小数点，全部使用double可以提高精度。
 
 ```java
 import java.util.concurrent.RecursiveTask;
@@ -30,10 +30,12 @@ public class ForkJoinCalculate extends RecursiveTask<Long> {
         if(length<=THRESHOLD)
         {
             long sum = 0;
+            double temp = 0;
             for(long i = start ;i<=end ;i++)
             {
-                sum+=Math.pow(i,3)-Math.pow(i,1/3);
+                temp += (double)Math.pow(i,3)-(double) Math.pow(i,1.0/3);
             }
+            sum = Math.round(temp);
             return sum;
         }else{
             long middle = (start+end)/2;
@@ -84,9 +86,9 @@ public class ForkJoinTest {
 }
 ```
 
-结果输出：
+long类型的结果输出：
 
 ```
-100次累加执行时间：6毫秒  执行结果：25502400
-100亿次累加执行时间：42毫秒  执行结果：6028400663710535392
+100次累加执行时间：9毫秒  执行结果：25502150
+100亿次累加执行时间：35毫秒  执行结果：6028400663709265422
 ```
