@@ -18,10 +18,12 @@ def calculate(rangeN,xN,cN):
         print(i)
         print(math.pow(i,xN))
         print(math.pow(i,1/cN))
+    return sumN
 
 
 if __name__=='__main__':
     print('calculate')
-    calculate(100,3,3)
+    re=calculate(100,3,3)
+    print(re)
 
 ```
