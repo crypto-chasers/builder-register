@@ -1,4 +1,6 @@
 # script-money
+### 钱包接着
+**0x132191dAc46A625BF15a2E908cE33a31f4f56efc**
 
 1. *微信名或昵称：* 姿势就是力量
 2. *discord的ID：* longago#1673
