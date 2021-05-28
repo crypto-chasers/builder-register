@@ -1,4 +1,4 @@
-# script-money
+# tianlitao
 
 1. *微信名或昵称：* tianlitao
 2. *discord的ID：* tlt#9280
