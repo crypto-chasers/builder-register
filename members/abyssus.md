@@ -1,4 +1,4 @@
-# script-money
+# Abyssus
 
 1. *微信名或昵称：* wocani
 2. *discord的ID：* Abyssus#9947
@@ -17,4 +17,3 @@ for n in range(1,101):
 print(str(i)) #25502149.836096782
 
 ```
-wallet address : 0xc92A521Db20fC7bd134dFE3035C61872E072Ec7C
