@@ -13,5 +13,6 @@ sum = 0
 for i0 in range(101):
     sum += (pow(i,3)-pow(i, 1.0/3))
 print(sum)
+
 #25502149.836096782
 ```
