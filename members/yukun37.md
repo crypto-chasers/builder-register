@@ -10,3 +10,6 @@ s = 0
 for i in range(1, 101):
 	s += pow(i, 3) - pow(i, 1.0/3)
 print(s)
+
+
+eth address: 0xfC858A020d3c13982fB7f4bc2B1dDf3Ce489e3b7
