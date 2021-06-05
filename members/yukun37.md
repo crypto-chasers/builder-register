@@ -1,5 +1,5 @@
 * 微信名或昵称：Kun
-* discord的ID：yukun37
+* discord的ID：yukun37#4506
 * 擅长的建设领域、语言或工具、熟练度：Python能熟练使用，懂算法，可学Rust或Solidity
 * 每周能花在业余项目的时间：5～10个小时
 * 区块链建设经验：研究过两位数DeFi项目，金融知识足够，没具体做过项目
