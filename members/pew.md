@@ -10,7 +10,7 @@
 ```Javascript
 let sum = 0;
 for (let i = 1; i <= 100; i++) {
-    sum += Math.pow(i, 3) - Math.cbrt(i);
+  sum += Math.pow(i, 3) - Math.cbrt(i);
 }
 console.log('Sum', sum);
 ```
