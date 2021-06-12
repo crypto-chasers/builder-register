@@ -1,6 +1,6 @@
 1. 微信名: 17801130089
 
-2. dicord ID: maxwupro
+2. dicord ID: maxwupro#0953
 
 3. 擅长的建设领域、语言或工具、熟练度: 
 
