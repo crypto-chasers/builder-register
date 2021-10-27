@@ -1,0 +1,12 @@
+微信名或昵称： huyi2218
+discord的ID： shangjie#9701
+擅长的建设领域、语言或工具、熟练度： Azure云平台架构师，熟悉各类PaaS功能；熟悉低代码平台快速开发；熟练使用C#和T-SQL语句。
+每周能花在业余项目的时间： 12小时左右
+区块链建设经验（产品、项目、黑客松、技术文章、代码贡献、艺术创作等）： 基于Selenium+AutoIT 实现过一些Web自动化任务，比如刷zapper交互，CL批量打新报名。
+用任意编程语言计算以下公式 
+            double sum = 0;
+            for(int i=1;i<=100;i++)
+            {
+                sum += Math.Pow((double)i, 3) - Math.Cbrt(i);
+            }                    
+            Console.WriteLine(sum.ToString());
