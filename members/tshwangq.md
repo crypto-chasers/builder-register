@@ -8,9 +8,9 @@
 6. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 7. *metamask: 0x191Ac84067DB87283a1864e1C606e9d51c32f511
-```elisp
+```lisp
 
-(let ((total 0) (max 4) (i 1))
+(let ((total 0) (max 101) (i 1))
   (while (< i max)
     (setq ex  (- (expt i 3) (expt i  (/ (float 1) 3))))
     (setq total (+ total ex))
