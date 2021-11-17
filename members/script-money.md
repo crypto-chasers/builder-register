@@ -9,5 +9,6 @@
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
 ```py
+#python3
 print(sum([i**3-i**(1/3) for i in range(1,101)]))
 ```
