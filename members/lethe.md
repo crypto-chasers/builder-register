@@ -1,4 +1,4 @@
-# script-money
+# lethe
 
 1. *微信名或昵称：* lethexz
 2. *discord的ID：* Lethe#8787
