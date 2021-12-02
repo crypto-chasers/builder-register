@@ -4,7 +4,7 @@ fork 当前 repository，在 members 文件夹下创建一个md文件，填入�
 
 1. zyz19961022
 2. olive888#6825
-3. 区块链方面经验两年。擅长java，golang开发，熟悉linux系统维护，熟悉idc机房自有节点建设（有相关资源和实际架构经验），filecoin节点封装维护。掌握web.js,合约开发
+3. 区块链方面经验两年。擅长java，golang，shell开发，熟悉linux操作系统，熟悉idc机房自有节点建设（有相关资源和实际架构经验），filecoin节点封装维护。掌握web.js,合约开发
 4. 每周能花在业余项目的时间：allTime (只要能赚)
 5. 区块链建设经验：
 6. 用任意编程语言计算以下公式：
