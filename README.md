@@ -11,9 +11,13 @@ fork 当前 repository，在 members 文件夹下创建一个md文件，填入�
 
 #!/bin/bash
 result=0
+
 for i in $(seq 1 100)
+
 do
+
         result=$(echo $i 3 $result|awk '{printf ("%.10f\n",$3+$1**$2-$1^(1/$2))}')
+        
 done
 
 echo $result
