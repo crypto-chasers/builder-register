@@ -1,4 +1,4 @@
-# Nzero
+# Nzero 
 
 1. *微信名或昵称：* Nzero
 2. *discord的ID：* Nzero#6110
