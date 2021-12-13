@@ -1,0 +1,21 @@
+# Sibylla
+
+1. *微信名或昵称：* iisibyllaii
+2. *discord的ID：* Sibylla#0884
+3. *擅长的建设领域、语言或工具、熟练度：* 从事Java后端开发，3年+经验；开发过爬虫&自动化工具，1年经验；熟练使用Java，python，SQL，懂一点前端，C/C++
+4. *每周能花在业余项目的时间：* 15小时左右
+5. *区块链建设经验（产品、项目、黑客松、技术文章、代码贡献、艺术创作等）：* 暂无，开发过基于airtest的自动化工具。
+6. *用任意编程语言计算以下公式*
+![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
+
+```Java
+public class CalcMain {
+	public static void main(String[] args) {
+	    double res = 0.0;
+	    for (int i = 1; i <= 100; i++) {
+	      res += Math.pow(i, 3) - Math.pow(i, 1.0/3);
+	    }
+	    System.out.println(res); // 2.5502149836096782E7
+  	}
+}
+```
