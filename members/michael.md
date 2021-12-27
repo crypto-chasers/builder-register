@@ -1,6 +1,6 @@
 # script-money
 
-1. *微信名或昵称：* Michael🦄️
+1. *微信名或昵称：* XZxiyuan
 2. *discord的ID：* Michael Liu#4606
 3. *擅长的建设领域、语言或工具、熟练度：* 擅长项目的分析研究；熟练使用TypeScript全栈开发dapp，1年经验。
 4. *每周能花在业余项目的时间：* 6小时左右
