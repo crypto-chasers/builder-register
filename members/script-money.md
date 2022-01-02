@@ -8,10 +8,20 @@
 11. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
-```C#
-using System;
-using System.Linq;
+import java.text.NumberFormat;
+import java.util.stream.IntStream;
 
-var sum = Enumerable.Range(1, 100).Select(i => Math.Pow((double)i, 3) - Math.Cbrt(i)).Sum();
-Console.WriteLine(sum); // 25502149.836096782
-```
+public class Test {
+
+    public static void main(String[] args) {
+        double[] sum = {0d};
+        IntStream.range(1,101).forEach(x->{
+            sum[0] = sum[0] + (Math.pow(x,3d) - Math.cbrt(x));
+        });
+        NumberFormat nf = NumberFormat.getInstance();
+        nf.setMaximumFractionDigits(10);
+        nf.setGroupingUsed(false);
+        System.out.println(nf.format(sum[0]));
+    }
+
+}
