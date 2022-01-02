@@ -8,9 +8,9 @@
 11. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
+
 import java.text.NumberFormat;
 import java.util.stream.IntStream;
-
 public class Test {
 
     public static void main(String[] args) {
