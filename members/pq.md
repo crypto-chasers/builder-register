@@ -8,10 +8,7 @@
 6. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
-```C#
-using System;
-using System.Linq;
-
-var sum = Enumerable.Range(1, 100).Select(i => Math.Pow((double)i, 3) - Math.Cbrt(i)).Sum();
-Console.WriteLine(sum); // 25502149.836096782
+```Python
+import math
+print(sum([math.pow(i, 3) - math.pow(i, 1.0 / 3.0) for i in range(1, 101)]))
 ```
