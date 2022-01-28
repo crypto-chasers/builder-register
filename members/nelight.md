@@ -11,5 +11,5 @@ for i = 1; i <= 100; i++ {
 	d := math.Pow(i, 3) - math.Cbrt(i)
 	sum += d
 }
-fmt.Println(sum)
+fmt.Println(sum)//2.5502149836096782e+07
 ```
