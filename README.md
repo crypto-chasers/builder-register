@@ -2,7 +2,7 @@
 
 fork 当前 repository，在 members 文件夹下新建一个md文件，填入以下信息，提交 pull request，格式参考 `./members/script-money.md`。
 
-1. 微信名或昵称：(确保能找到你)
+1. 微信号：(确保能找到你)
 2. discord的ID：（没加的加一下[社区Discord](https://discord.gg/KVVj6AGgDZ))
 3. 擅长的建设领域、语言或工具、熟练度：
 4. 每周能花在业余项目的时间：
