@@ -1,0 +1,1 @@
+微信名或昵称： main_argc discord的ID： yingzheng#8888 擅长的建设领域、语言或工具、熟练度： 会使用Python，谈不上精通，但可以进行自动化脚本的开发，如爬虫，刷票等；会使用solidity进行合约开发，1年经验。 每周能花在业余项目的时间： 6小时左右 区块链建设经验（产品、项目、黑客松、技术文章、代码贡献、艺术创作等）： 主要在学习，对外产出内容较少 用任意编程语言计算以下公式 import math ans = 0 for i in range(100): ans += math.pow((i+1),3)-math.pow((i+1),1/3) print(ans)
