@@ -1,5 +1,3 @@
-# script-money
-
 1. *微信名或昵称：* wxid_flu7j8psv8u621
 2. *discord的ID：* lqs#9128
 3. *擅长的建设领域、语言或工具、熟练度：* 擅长web后端开发，PHP四年经验；Golang两年经验；
