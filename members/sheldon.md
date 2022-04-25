@@ -23,7 +23,7 @@ int main()
         sum += pow(i, 3) - pow(i, 1.0/3);
     }   
     cout << sum << endl;    // 2.55021e+07
-	printf( "%f\n", sum );  // 25502149.836097
+    // printf( "%f\n", sum );  // 25502149.836097
 
     return 0;
 }
