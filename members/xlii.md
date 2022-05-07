@@ -8,7 +8,7 @@
 6. *用任意编程语言计算以下公式*
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
-# python
+#python
 import math
 
 x = sum(math.pow(i, 3) - math.pow(i, 1/3) for i in range(1, 101))
