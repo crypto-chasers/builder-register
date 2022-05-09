@@ -8,9 +8,8 @@
 ![](https://latex.codecogs.com/svg.image?\sum_{n=1}^{100}\left&space;(n^{3}-\sqrt[3]{n}&space;\right&space;))
 
 ```C#
-using System;
-using System.Linq;
+import java.util.stream.IntStream;
 
-var sum = Enumerable.Range(1, 100).Select(i => Math.Pow((double)i, 3) - Math.Cbrt(i)).Sum();
-Console.WriteLine(sum); // 25502149.836096782
+   double sum = IntStream.rangeClosed(1, 100).mapToDouble(x -> (Math.pow((double)x, 3) - Math.cbrt(x))).sum();
+   System.out.println(sum);
 ```
