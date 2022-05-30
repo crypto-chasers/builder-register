@@ -18,8 +18,7 @@ def cub(n):
 def main():
     sum = 0
     for i in range(100):
-        if i == 0:
-            continue
+        i = i + 1
         sum = sum + cub(i) - cubeRoot(i)
     print(sum)
 
