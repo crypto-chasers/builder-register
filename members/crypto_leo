@@ -1,0 +1,26 @@
+crypto_leo
+微信名或昵称： crypto_leo
+discord的ID：  CryptoLeo#0304
+擅长的建设领域、语言或工具、熟练度： 擅长开发自动化和数据分析的小工具，有传统后端开发框架能力，擅长使用golang，python，C++，三年开发经验
+每周能花在业余项目的时间： 15小时左右
+区块链建设经验（产品、项目、黑客松、技术文章、代码贡献、艺术创作等）： 开发过基于Selenium+ZMQ的网页自动化工具。目前在开发交易所平台
+用任意编程语言计算以下公式 
+def cubeRoot(n):
+    last = n
+    new = last - ((last ** 3 - n) / (3 * last ** 2))
+    while abs(new - last) > 0.000001:  # 精度要求
+        last = new
+        new = last - ((last ** 3 - n) / (3 * last ** 2))
+    return new
+def cub(n):
+    return (n * n * n)
+
+def main():
+    sum = 0
+    for i in range(100):
+        if i == 0:
+            continue
+        sum = sum + cub(i) - cubeRoot(i)
+    print(sum)
+
+main()
