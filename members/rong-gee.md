@@ -1,4 +1,4 @@
-# script-money
+# rongr#3999
 
 1. *微信名或昵称：* Reenie_Rong
 2. *discord的ID：* rongr#3999
